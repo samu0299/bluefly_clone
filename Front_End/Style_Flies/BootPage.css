@@ -1,0 +1,94 @@
+#Black_Bar {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#Title_Div {
+  text-align: center;
+}
+#Pro_Page_Div {
+  display: flex;
+  margin-left: 150px;
+  gap: 5px;
+}
+#Category_Div {
+  width: 220px;
+  border: 1px solid white;
+}
+#Category_Div > div {
+  margin-bottom: 10px;
+}
+#Category_Div > div > div {
+  text-align: start;
+}
+#Category_Div > div > div > input {
+  cursor: pointer;
+}
+#Category_Div > div > div:nth-child(1) {
+  border: 1px solid gray;
+  background-color: rgb(250, 250, 250);
+  padding: 7px;
+  font-weight: bold;
+}
+#Category_Div > div > div:nth-child(2),
+#Category_Div > div > div:nth-child(3),
+#Category_Div > div > div:nth-child(4) {
+  border: 1px solid rgb(226, 224, 224);
+  /* display: none; */
+}
+#Products_Div {
+  width: 800px;
+  border: 1px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#Products_Div > div {
+  border: 1px solid rgb(226, 224, 224);
+  width: 258px;
+  text-align: center;
+  cursor: pointer;
+}
+#Products_Div > div > img {
+  width: 100%;
+  height: 300px;
+}
+.Price-line {
+  text-decoration-line: line-through;
+}
+.Red_Text {
+  color: red;
+}
+.margin {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.brand_color {
+  color: gray;
+}
+#All_Values,
+#Dis_Values {
+  display: flex;
+  gap: 5px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+#All_Values > input,
+#Dis_Values > input {
+  width: 70px;
+}
+#All_Values > button,
+#Dis_Values > button {
+  width: 30px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+#Clear_Filter {
+  color: red;
+  cursor: pointer;
+}
